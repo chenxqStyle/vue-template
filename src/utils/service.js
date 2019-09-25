@@ -5,7 +5,8 @@ import {baseURL} from '../config'
 let cancel, promiseArr = {}
 const CancelToken = axios.CancelToken;
 // axios.defaults.baseURL = BM_config.api;
-axios.defaults.baseURL = baseURL
+// axios.defaults.baseURL = baseURL
+axios.defaults.baseURL = 'http://localhost:3000'
 //设置默认请求头
 axios.defaults.headers = {
   // 'X-Requested-With': 'XMLHttpRequest',

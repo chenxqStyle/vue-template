@@ -1,4 +1,4 @@
-# nm-big-data
+# template
 
 ## Project setup
 ```
