@@ -25,5 +25,9 @@
 	.se{
 		border:2px solid #ddd;
 		border-radius: 6px;
+		font-size: 20px;
+	}
+	h3{
+		font-size: 30px;
 	}
 </style>

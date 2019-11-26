@@ -5,11 +5,13 @@
 		<button @click='add'>+++++</button>
 		<button @click='reduce'>-----</button>
 		<button @click='getData'>getData</button>
+		<div class='d1'></div>
+		<div class='d2'></div>
 	</div>
 </template>
 <script>
 	import vueTextX from '@/components/test-vuex-com'
-	// import { search } from '@/api/index'
+	import { search } from '@/api/index'
 	export default {
 		data(){
 	  		return {}
@@ -34,5 +36,20 @@
 	
 </script>
 <style scoped>
-	
+	div{
+		font-size: 36px;
+	}
+	.d1,.d2{
+		display: inline-block;
+	}
+	.d1{
+		width: 50px;
+		height: 50px;
+		background: yellow;
+	}
+	.d2{
+		width: 70px;
+		height: 70px;
+		background: green;
+	}
 </style>
