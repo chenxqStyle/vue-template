@@ -1,5 +1,4 @@
-import update from "./modules/test";
 const directives = {
-  update,
+  update() {},
 };
 export default directives;
