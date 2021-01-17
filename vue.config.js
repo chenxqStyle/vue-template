@@ -33,6 +33,7 @@ const autoprefixer = require("autoprefixer");
 const pxtorem = require("postcss-pxtorem");
 const Timestamp = new Date().getTime();
 const path = require("path");
+const proxy = require("http-proxy-middleware");
 const FileManagerPlugin = require("filemanager-webpack-plugin");
 
 const resolve = (dir) => {
